@@ -66,6 +66,8 @@ Lista com os principais comandos docker:
 
 ## Comandos relacionados ao Docker Compose
 
+`docker-compose build` - cria os serviços.
+
 `docker-compose up` - sobe os serviços criados.
 
 `docker-compose down` - para os serviços criados.
