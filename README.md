@@ -6,15 +6,15 @@ Lista com os principais comandos docker:
 
 `docker version` - exibe a versão do docker que está instalada.
 
-`docker inspect` ID_CONTAINER - retorna diversas informações sobre o container.
+`docker inspect ID_CONTAINER` - retorna diversas informações sobre o container.
 
 `docker ps` - exibe todos os containers em execução no momento.
 
-`docker ps` -a - exibe todos os containers, independentemente de estarem em execução ou não.
+`docker ps -a` - exibe todos os containers, independentemente de estarem em execução ou não.
 
 ## Comandos relacionados à execução
 
-`docker run` NOME_DA_IMAGEM - cria um container com a respectiva imagem passada como parâmetro.
+`docker run NOME_DA_IMAGEM` - cria um container com a respectiva imagem passada como parâmetro.
 
 `docker run -it NOME_DA_IMAGEM` - conecta o terminal que estamos utilizando com o do container.
 
