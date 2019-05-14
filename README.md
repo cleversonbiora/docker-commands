@@ -3,14 +3,16 @@ Lista com os principais comandos utilizados durante o curso:
 
 ## Comandos relacionados às informações
 `docker version` - exibe a versão do docker que está instalada.
-docker inspect ID_CONTAINER - retorna diversas informações sobre o container.
-docker ps - exibe todos os containers em execução no momento.
-docker ps -a - exibe todos os containers, independentemente de estarem em execução ou não.
+
+`docker inspect` ID_CONTAINER - retorna diversas informações sobre o container.
+
+`docker ps` - exibe todos os containers em execução no momento.
+`docker ps` -a - exibe todos os containers, independentemente de estarem em execução ou não.
 ## Comandos relacionados à execução
-docker run NOME_DA_IMAGEM - cria um container com a respectiva imagem passada como parâmetro.
-docker run -it NOME_DA_IMAGEM - conecta o terminal que estamos utilizando com o do container.
-docker run -d -P --name NOME dockersamples/static-site - ao executar, dá um nome ao container.
-docker run -d -p 12345:80 dockersamples/static-site - define uma porta específica para ser atribuída à porta 80 do container, neste caso 12345.
+`docker run` NOME_DA_IMAGEM - cria um container com a respectiva imagem passada como parâmetro.
+`docker run -it NOME_DA_IMAGEM` - conecta o terminal que estamos utilizando com o do container.
+`docker run -d -P --name NOME dockersamples/static-site` - ao executar, dá um nome ao container.
+`docker run -d -p 12345:80 dockersamples/static-site` - define uma porta específica para ser atribuída à porta 80 do container, neste caso 12345.
 docker run -v "CAMINHO_VOLUME" NOME_DA_IMAGEM - cria um volume no respectivo caminho do container.
 docker run -it --name NOME_CONTAINER --network NOME_DA_REDE NOME_IMAGEM - cria um container especificando seu nome e qual rede deverá ser usada.
 ## Comandos relacionados à inicialização/interrupção
