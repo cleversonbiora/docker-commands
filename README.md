@@ -64,3 +64,12 @@ Lista com os principais comandos docker:
 
 `docker network create --driver bridge NOME_DA_REDE` - cria uma rede especificando o driver desejado.
 
+## Comandos relacionados ao Docker Compose
+
+`docker-compose up` - sobe os serviços criados.
+
+`docker-compose down` - para os serviços criados.
+
+`docker-compose ps` - lista os serviços que estão rodando.
+
+`docker exec -it NOME_CONTAINER ping node2` - executa o comando `ping node2` dentro do container `NOME_CONTAINER`.
