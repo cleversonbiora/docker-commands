@@ -1,6 +1,6 @@
 # docker-commands
 
-Lista com os principais comandos utilizados durante o curso:
+Lista com os principais comandos docker:
 
 ## Comandos relacionados às informações
 
